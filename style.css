@@ -1,5 +1,12 @@
+body{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #1f2039;
+}
+
 a{
-    color : black;
+    color: #242424;
+    text-decoration: none;
 }
 
 h1{
@@ -8,22 +15,27 @@ h1{
     font-family: 'Montserrat', sans-serif;
 }
 
-p{
+h2 {
+    color: #f9f8ff;
+  }
+
+p,
+li{
     font-size: 1.1em;
-    font-family: 'Manrope', sans-serif;
-}
-
-list{
-    font-size: 1em;
-    font-family: 'Manrope', sans-serif;
-}
-
-link{
-    text-decoration: none;
-    font-size: 1em;
-    font-family: 'Manrope', sans-serif;
+    color: #f9f8ff;
 }
 
 em{
     color: #A5B4FC;
+    font-style: normal;
 }
+
+.entete,
+.pied-de-page{
+    background-color: white;
+}
+
+.cta {
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+  }
