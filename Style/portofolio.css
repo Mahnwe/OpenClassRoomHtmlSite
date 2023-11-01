@@ -50,4 +50,8 @@
   .lien-conteneur-photo:hover .photo-hover {
     display: flex;
   }
+
+  h1 {
+    text-align: center;
+  }
   
