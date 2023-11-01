@@ -23,6 +23,7 @@
 }
 
 table {
+    margin-left: -127px;
     text-align: center;
     border-collapse: collapse;
     width: 100%;
