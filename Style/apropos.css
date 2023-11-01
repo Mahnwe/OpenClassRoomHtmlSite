@@ -23,7 +23,6 @@
 }
 
 table {
-    margin-left: -127px;
     text-align: center;
     border-collapse: collapse;
     width: 100%;
@@ -47,4 +46,10 @@ td {
   h1,
   h2 {
     text-align: center;
+  }
+
+  @media screen and (max-width: 996px) {
+    .section-tarifs {
+      display: none;
+    }
   }
